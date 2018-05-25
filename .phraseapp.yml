@@ -4,7 +4,21 @@ phraseapp:
   file_format: "properties"
   push:
     sources:
-    - file: ".*.properties"
+    - file: messages_en.properties
+      params:
+        update_translations: true
+        locale_id: dc36a37db6f059be781e0e47bae30da0
+    - file: messages_pl.properties
+      params:
+        update_translations: true
+        locale_id: 3b691cd782233c04203706ff064a8dd5    
   pull:
     targets:
-    - file: ".*.properties"
+    - file: messages_en.properties
+      params:
+        update_translations: true
+        locale_id: dc36a37db6f059be781e0e47bae30da0
+    - file: messages_pl.properties
+      params:
+        update_translations: true
+locale_id: 3b691cd782233c04203706ff064a8dd5    
