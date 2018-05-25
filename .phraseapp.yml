@@ -1,0 +1,10 @@
+phraseapp:
+  access_token: "d1d3d5065586ad8c44f020d9e7cfb7911de2e6b6d5a09db7861bf773d0df476b"
+  project_id: "b96ade0110c0c94165260c51ebfc9b62"
+  file_format: "properties"
+  push:
+    sources:
+    - file: ".*.properties"
+  pull:
+    targets:
+    - file: ".*.properties"
